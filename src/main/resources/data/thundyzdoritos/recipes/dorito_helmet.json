@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "thundyzdoritos:square_dorito"
+    }
+  },
+  "result": {
+    "item": "thundyzdoritos:dorito_helmet"
+  }
+}

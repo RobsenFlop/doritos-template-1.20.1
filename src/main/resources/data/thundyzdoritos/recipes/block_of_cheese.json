@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thundyzdoritos:cheese"
+    }
+  },
+  "result": {
+    "item": "thundyzdoritos:block_of_cheese"
+  }
+}

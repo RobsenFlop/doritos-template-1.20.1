@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients":[
+    {
+      "item": "thundyzdoritos:block_of_cheese"
+    }
+  ],
+  "result": {
+    "item": "thundyzdoritos:cheese",
+    "count": 9
+  }
+}

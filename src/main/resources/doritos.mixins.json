@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.robin.doritos.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin",
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

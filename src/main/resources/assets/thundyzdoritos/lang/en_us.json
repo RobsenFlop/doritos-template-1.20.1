@@ -1,0 +1,26 @@
+{
+  "item.thundyzdoritos.doritos": "Doritos",
+  "item.thundyzdoritos.sweet_chili_doritos": "Sweet Chili Doritos",
+  "item.thundyzdoritos.flaming_hot_doritos": "Flaming Hot Doritos",
+  "item.thundyzdoritos.lays": "L's",
+  "item.thundyzdoritos.cheese": "Cheese",
+  "item.thundyzdoritos.corn_seeds": "Corn Seeds",
+  "item.thundyzdoritos.chili_seeds": "Chili Seeds",
+  "item.thundyzdoritos.corn": "Corn",
+  "item.thundyzdoritos.chili": "Chili",
+  "item.thundyzdoritos.corn_on_the_cob": "Corn on the Cob",
+  "item.thundyzdoritos.chanel_bag_music_disc": "Chanel Bag",
+  "item.thundyzdoritos.chanel_bag_music_disc.desc": "KillBunk - Chanel Bag",
+  "item.thundyzdoritos.dorito_helmet": "Dorito Crown",
+  "item.thundyzdoritos.mountain_dew": "Mountain Dew",
+  "item.thundyzdoritos.red_bull": "Red Bull",
+  "item.thundyzdoritos.empty_can": "Empty Can",
+
+  "item.minecraft.potion.effect.mountain_dew_potion": "Bottle of Mountain Dew",
+
+  "block.thundyzdoritos.block_of_cheese": "Block of Cheese",
+  "block.thundyzdoritos.square_dorito": "Square Dorito",
+  "block.thundyzdoritos.dorito_dust_block": "Dorito Dust Block",
+
+  "itemgroup.thundyzdoritos": "Thundyz Doritos"
+}

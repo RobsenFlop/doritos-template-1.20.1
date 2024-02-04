@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients":[
+    {
+      "item": "thundyzdoritos:corn"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "thundyzdoritos:cheese"
+    }
+  ],
+  "result": {
+    "item": "thundyzdoritos:doritos",
+    "count": 1
+  }
+}

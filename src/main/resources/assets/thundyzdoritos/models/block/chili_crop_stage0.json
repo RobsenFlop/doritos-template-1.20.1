@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "thundyzdoritos:block/chili_crop_stage0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "chanel_bag": {
+    "sounds": [
+      {
+        "name": "thundyzdoritos:chanel_bag",
+        "stream": true
+      }
+    ]
+  },
+  "lays": {
+    "sounds": [
+      {
+        "name": "thundyzdoritos:lays",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "thundyzdoritos",
+	"version": "${version}",
+	"name": "ThundyzDoritos",
+	"description": "MMMmm yummy, doritos in my tummy",
+	"authors": [
+		"RobsenFlop"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/doritos/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.robin.doritos.ThundyzDoritos"
+		],
+		"client": [
+			"net.robin.doritos.ThundyzDoritosClient"
+		],
+		"fabric-datagen": [
+			"net.robin.doritos.ThundyzDoritosDataGenerator"
+		]
+	},
+	"mixins": [
+		"doritos.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

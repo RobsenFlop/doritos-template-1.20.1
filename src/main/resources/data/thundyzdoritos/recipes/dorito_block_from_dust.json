@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "thundyzdoritos:dorito_dust_block"
+  },
+  "result": "thundyzdoritos:square_dorito"
+}
