@@ -12,6 +12,7 @@
   "item.thundyzdoritos.chanel_bag_music_disc": "Chanel Bag",
   "item.thundyzdoritos.chanel_bag_music_disc.desc": "KillBunk - Chanel Bag",
   "item.thundyzdoritos.dorito_helmet": "Dorito Crown",
+  "item.thundyzdoritos.dorito_king_helmet": "Crown of the lost Dorito King",
   "item.thundyzdoritos.mountain_dew": "Mountain Dew",
   "item.thundyzdoritos.red_bull": "Red Bull",
   "item.thundyzdoritos.empty_can": "Empty Can",
@@ -21,6 +22,8 @@
   "block.thundyzdoritos.block_of_cheese": "Block of Cheese",
   "block.thundyzdoritos.square_dorito": "Square Dorito",
   "block.thundyzdoritos.dorito_dust_block": "Dorito Dust Block",
+
+  "block.thundyzdoritos.thundy_plush": "Thundy Plush",
 
   "itemgroup.thundyzdoritos": "Thundyz Doritos"
 }

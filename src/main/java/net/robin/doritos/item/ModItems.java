@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.robin.doritos.ThundyzDoritos;
 import net.robin.doritos.block.ModBlocks;
+import net.robin.doritos.item.custom.ModArmorItem;
 import net.robin.doritos.sounds.ModSounds;
 
 import static net.robin.doritos.block.ModBlocks.*;
@@ -22,7 +23,7 @@ public class ModItems {
     public static final Item FLAMING_HOT_DORITOS = registerItem("flaming_hot_doritos",
             new Item(new FabricItemSettings().food(ModFoodComponents.FLAMING_HOT_DORITOS).fireproof()));
     public static final Item LAYS = registerItem("lays",
-            new LaysItem(new FabricItemSettings().food(ModFoodComponents.LAYS)));
+            new net.robin.doritos.item.LaysItem(new FabricItemSettings().food(ModFoodComponents.LAYS)));
     public static final Item CHEESE = registerItem("cheese",
             new Item(new FabricItemSettings().food(ModFoodComponents.CHEESE)));
     public static final Item CORN_SEEDS = registerItem("corn_seeds",
@@ -41,9 +42,9 @@ public class ModItems {
     public static final Item EMPTY_CAN = registerItem("empty_can",
             new Item(new FabricItemSettings()));
     public static final Item MOUNTAIN_DEW = registerItem("mountain_dew",
-            new DrinkItem((new FabricItemSettings()).food(ModFoodComponents.MOUNTAIN_DEW)));
+            new net.robin.doritos.item.DrinkItem((new FabricItemSettings()).food(ModFoodComponents.MOUNTAIN_DEW)));
     public static final Item RED_BULL = registerItem("red_bull",
-            new DrinkItem((new FabricItemSettings()).food(ModFoodComponents.RED_BULL)));
+            new net.robin.doritos.item.DrinkItem((new FabricItemSettings()).food(ModFoodComponents.RED_BULL)));
 
 
 
@@ -53,7 +54,9 @@ public class ModItems {
 
 
     public static final Item DORITO_HELMET = registerItem("dorito_helmet",
-            new ArmorItem(ModArmorMaterials.DORITOS, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
+            new ModArmorItem(net.robin.doritos.item.ModArmorMaterials.DORITOS, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.RARE)));
+    public static final Item DORITO_KING_HELMET = registerItem("dorito_king_helmet",
+            new ModArmorItem(net.robin.doritos.item.ModArmorMaterials.KING_DORITOS, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.EPIC)));
 
 
 
@@ -78,6 +81,7 @@ public class ModItems {
     }
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {
         entries.add(DORITO_HELMET);
+        entries.add(DORITO_KING_HELMET);
     }
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
         entries.add(CORN_SEEDS);

@@ -14,5 +14,11 @@
         "stream": true
       }
     ]
+  },
+  "thundy_plush": {
+    "sounds": [
+        "thundyzdoritos:thundy_plush"
+    ]
   }
+
 }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#C#",
+    "BDB",
+    "#B#"
+  ],
+  "key": {
+    "D": {
+      "item": "thundyzdoritos:dorito_helmet"
+    },
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "D": {
+      "item": "thundyzdoritos:doritos"
+    }
+  },
+  "result": {
+    "item": "thundyzdoritos:block_of_cheese"
+  }
+}

@@ -9,8 +9,10 @@ import net.robin.doritos.ThundyzDoritos;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    DORITOS("dorito", 25, new int[] {3,8,6,3}, 19,
-        SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 2f,0.1f, () -> Ingredient.ofItems(ModItems.DORITOS));
+    DORITOS("dorito", 15, new int[] {2,6,5,2}, 9,
+        SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f,0f, () -> Ingredient.ofItems(net.robin.doritos.item.ModItems.DORITOS)),
+    KING_DORITOS("dorito_king", 37, new int[] {3,8,6,3}, 15,
+        SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0f,0.1f, () -> Ingredient.ofItems(net.robin.doritos.item.ModItems.DORITOS));
 
     private final String name;
     private final int durabilityMultiplier;

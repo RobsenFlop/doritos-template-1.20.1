@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.robin.doritos.ThundyzDoritos;
 import net.robin.doritos.block.custom.ChiliCropBlock;
 import net.robin.doritos.block.custom.CornCropBlock;
+import net.robin.doritos.block.custom.ThundyPlush;
 
 public class ModBlocks {
     public static final Block BLOCK_OF_CHEESE = registerBlock("block_of_cheese",
@@ -18,6 +19,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.GRAVEL).mapColor(MapColor.TERRACOTTA_ORANGE).strength(0.25f)));
     public static final Block DORITO_DUST_BLOCK = registerBlock("dorito_dust_block",
             new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND).mapColor(MapColor.TERRACOTTA_ORANGE).strength(0.15f)));
+    public static final Block THUNDY_PLUSH = registerBlock("thundy_plush",
+            new ThundyPlush(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL).mapColor(MapColor.WATER_BLUE).nonOpaque()));
     public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(ThundyzDoritos.MOD_ID, "corn_crop"),
             new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
     public static final Block CHILI_CROP = Registry.register(Registries.BLOCK, new Identifier(ThundyzDoritos.MOD_ID, "chili_crop"),

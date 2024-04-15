@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "thundyzdoritos:block/thundy_plush" },
+    "facing=east": { "model": "thundyzdoritos:block/thundy_plush", "y": 90 },
+    "facing=south": { "model": "thundyzdoritos:block/thundy_plush", "y": 180 },
+    "facing=west": { "model": "thundyzdoritos:block/thundy_plush", "y": 270 }
+  }
+}

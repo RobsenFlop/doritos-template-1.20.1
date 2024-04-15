@@ -1,20 +1,14 @@
 package net.robin.doritos.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.PotionUtil;
-import net.minecraft.potion.Potions;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.TagKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.robin.doritos.ThundyzDoritos;
 import net.robin.doritos.block.ModBlocks;
+import net.robin.doritos.item.ModItems;
 
 public class ModItemGroups {
     public static final ItemGroup DORITOS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -38,7 +32,9 @@ public class ModItemGroups {
                         entries.add(ModItems.CHILI_SEEDS);
                         entries.add(ModItems.CHILI);
                         entries.add(ModItems.DORITO_HELMET);
+                        entries.add(ModItems.DORITO_KING_HELMET);
                         entries.add(ModItems.CHANEL_BAG_MUSIC_DISC);
+                        entries.add(ModBlocks.THUNDY_PLUSH);
 
 
 
